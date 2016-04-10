@@ -1,0 +1,57 @@
+body {
+ background-color: #f2f2f2;
+ margin: 0;
+ font-family: sans-serif;
+}
+/*
+* {
+    outline: solid yellow 1px;
+}
+*/
+.header {
+     height: 90px;
+     background-color: #2d303a;
+     border-bottom: 6px soild #323746;
+}
+
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links {
+     width: 420px;
+     color: #44495b;
+     float: right;
+     text-align: right;
+     margin: 40px;
+     font-size: 0.75em;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo {
+    color: white;
+    width: 250px;
+    float: left;
+    margin-top: 30px;
+    font-size: 1.4em
+}
+.salmon {
+color:#f06c64;
+}
+
+.banner{
+    background-color:#f06c64;
+    text-align:center;
+    padding-top:15px;
+}
+
+@media screen and (max-width: 670px){
+    .header {
+        height: 120px;
+    }
+}
